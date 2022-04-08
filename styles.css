@@ -1,0 +1,159 @@
+/* 
+COLOR PALETTE
+#FFEAD0 - Blanched Almond
+#F76F8E - Ultra Red
+#96616B - Mauve Taupe
+ #37505C - Charcoal
+ #113537 - Rich Black*/
+
+ /* Global styles
+------------------------------------------ */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(90,53,127);
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    line-height: 2;
+} 
+img {  
+    width: 500px;
+}
+h1{ 
+    font-size: 55px;
+    line-height: 1;
+    
+}
+h2{
+    font-size: 35px;
+    color: rgb(90,53,127);
+}
+h1, h2{
+    font-family: 'Cormorant Garamond', serif;
+    width: 1000px;
+    margin: 0 auto;
+}
+a{
+    /*background-color: white; temporary code */
+    color: #ccbde5;
+
+    text-decoration: none
+}
+.btn:hover {
+    color:white;
+    background-color: rgb(90,53,127);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgb(90,53,127);
+}
+.nav{
+    color: white;
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+header{
+    background: rgb(90,53,127);
+}
+section {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Navigation
+---------------------------------------------------------- */
+/*header {
+    background: plum;
+    color: azure;
+}
+h1 { 
+    padding: 25px;
+}
+nav a:link {
+    color:white;
+ }
+ nav a:visited {
+     color: blueviolet;
+ }
+ header li{
+     width: 250px;
+     display: inline-block;
+ }*/
+
+/* Sorority Classes
+--------------------------------------------------------- */
+.sorority-class {
+    overflow: hidden;
+    /*border-bottom: 1px dashed rgb(90,53,127);*/
+}
+.sorority-class img{
+    float: left;
+    margin-right: 55px;
+}
+/*.sorority-class ol{
+    padding-left: 100px;*/
+
+
+
+
+.class_title {
+    background: rgb(90,53,127);
+    color: white;
+    margin: 25px;
+    padding: 5px;
+}
+
+/* Chapter Roster
+------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+/* *{ 
+    color: purple;
+}
+h1{
+    color: plum;
+}
+h1:hover{
+    color: white;
+    background-color: plum;
+}
+/* h2{ 
+    color: lavender;
+}
+.class_title {
+    color: violet;
+} 
+.fancy {
+    background: pink;
+}*/
+/* .class_title.fancy { 
+    font-size:medium;
+}*/
+/* #sisters { 
+    font-size: 100px;
+}*/
+/* article ol li{ 
+    color:aqua;
+}*/
+/*.fancy{
+    background-color: pink;
+}*/
+/* article h2, article ol { 
+    color: yellow;
+}*/
+/* <article h2, article h3{ 
+    color: red;
+}*/
